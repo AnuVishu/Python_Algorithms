@@ -3,5 +3,6 @@ def func_lin(lst):
         print(val)
 
 
+import json
 
 print(func_lin([1,2,3,4,5]))
