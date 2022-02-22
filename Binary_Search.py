@@ -1,6 +1,6 @@
 
 #list should be in sorted order
-def Binary_Search(lst,number_to_find):
+def Binary_Search1(lst,number_to_find):
     left_index = 0
     right_index = len(lst)-1
     mid_index =0
@@ -17,4 +17,4 @@ def Binary_Search(lst,number_to_find):
     return -1
 
 
-print(Binary_Search([12, 15, 17, 19, 21, 24, 45, 67],45))
+print(Binary_Search1([12, 15, 17, 19, 21, 24, 45, 67],21))
