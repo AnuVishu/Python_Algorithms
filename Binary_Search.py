@@ -17,4 +17,4 @@ def Binary_Search1(lst,number_to_find):
     return -1
 
 
-print(Binary_Search1([12, 15, 17, 19, 21, 24, 45, 67],21))
+print(Binary_Search1([12, 15, 17, 19, 21, 24, 45, 67],24))
